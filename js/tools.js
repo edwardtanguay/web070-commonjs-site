@@ -1,3 +1,3 @@
-export const sentencize = (text) => {
+exports.sentencize = (text) => {
 	return text.charAt(0).toUpperCase() + text.slice(1) + '.';
 }
